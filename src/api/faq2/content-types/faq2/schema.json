@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "faq2s",
+  "info": {
+    "singularName": "faq2",
+    "pluralName": "faq2s",
+    "displayName": "faq2"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "faq": {
+      "type": "text"
+    }
+  }
+}
