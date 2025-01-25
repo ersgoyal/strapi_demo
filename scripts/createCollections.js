@@ -59,7 +59,7 @@ function writeFiles(collectionName, schema) {
     console.log(`Schema for '${collectionName}' created.`);
   }
 
-  // Write default controller
+  // Write default  controller
   const controllerPath = path.join(apiFolder, collectionName, 'controllers', `${collectionName}.js`);
   if (!fs.existsSync(controllerPath)) {
     fs.writeFileSync(
