@@ -1,0 +1,23 @@
+{
+  "info": {
+    "singularName": "blog",
+    "pluralName": "blogs",
+    "displayName": "Blog"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    },
+    "content": {
+      "type": "text",
+      "required": false,
+      "unique": false
+    }
+  },
+  "kind": "collectionType"
+}
